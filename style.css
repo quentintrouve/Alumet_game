@@ -1,6 +1,64 @@
 .sabre {
-  background-color: red;
-  margin-top: 10px;
+  background-image: url("./assets/img/sabre.png");
+  background-size: cover;
   text-align: center;
-  width: 500px;
+  width: 18px;
+  height: 200px;
+  color: transparent;
+}
+
+.sabres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 50px 0px 50px;
+}
+
+body {
+  background-image: url("./assets/img/sky.png");
+  display: flex;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.rules {
+  color: yellow;
+  font-family: Starjedi;
+  padding: 0 50px 0 50px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.title {
+  align-self: center;
+  color: yellow;
+  font-family: Starjedi;
+  padding: 0 50px 0 50px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button {
+  background-color: transparent;
+  width: 30%;
+  height: 50px;
+  border-radius: 100px;
+  font-family: Starjedi;
+  border: 5px solid yellow;
+  color: yellow;
 }
